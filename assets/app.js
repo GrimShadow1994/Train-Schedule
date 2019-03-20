@@ -77,7 +77,7 @@ $(document).ready(function () {
             $("<td>").text(destination),
             $("<td>").text(frequency),
             $("<td>").text(nextTrain),
-            $("<td>").text(nextTrain),
+            $("<td>").text(tMinutesTillTrain),
         );
         $("#train-table > tbody").append(newRow);
 
